@@ -4,13 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.a10483.kotlintest.MainActivity">
 
     <TextView
         android:id="@+id/hello"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:text="操尼玛"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="150dp"/>
+        android:textSize="60dp"
+        android:gravity="center"/>
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </ListView>
+
+
 </LinearLayout>
